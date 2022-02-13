@@ -1,8 +1,10 @@
 const sum = (a: number, b: number) => {
+    console.log('summed function ran');
     return a + b;
 }
 
 const devide = (a: number, b: number) => {
+    console.log('devide function ran');
     return a / b;
 }
 
